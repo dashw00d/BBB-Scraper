@@ -22,13 +22,3 @@ for x in range(1, 999):
         time.sleep(1)
     except:
         pass
-
-
-'''
-p = re.compile('var bbbDtmData = (.*?);')
-m = p.match(data)
-stocks = json.loads(m.groups()[0])
-
-for stock in stocks:
-    print stock
-'''
